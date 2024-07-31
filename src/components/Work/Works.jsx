@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Data from "../Home/Data";
+// import Data from "../Home/Data";
 import { projectsData, projectsNav } from "./Data";
 import WorkItem from "./WorkItem";
 import "./work.css";

@@ -107,10 +107,10 @@ const Header = ({ onClick }) => {
                 <i className="uil uil-message nav_icon"></i>Contact
               </a>
             </li>
-            <li className="nav_item">
+            {/* <li className="nav_item">
               {/* <ThemeToggle /> */}
-              <button onClick={onClick}>Theme</button>
-            </li>
+            {/* <button onClick={onClick}>Theme</button>
+            </li> */}
           </ul>
           <i
             className="uil uil-times nav_close"

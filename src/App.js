@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./App.css";
 import About from "./components/About/About";
 // import Check from "./components/Check/Check";
@@ -31,8 +30,8 @@ function App() {
   // }, [theme]);
   return (
     <>
-      <div className={`App ${theme}`}>
-        <Header onClick={toggleTheme} />
+      <div className={`App`}>
+        <Header />
         <main className="main">
           <Home />
           <About />

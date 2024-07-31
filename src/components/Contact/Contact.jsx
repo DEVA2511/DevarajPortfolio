@@ -30,7 +30,7 @@ const Contact = () => {
               <span className="contact_card-data">
                 Devarajthangarasu2000@gmail.com
               </span>
-              <a href="#" className="contact_button">
+              <a href="contact" className="contact_button">
                 Write to me
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
@@ -40,7 +40,7 @@ const Contact = () => {
               <i className="uil uil-whatsapp contact_card-icon"></i>
               <h3 className="contact_card-title">WhatsApp</h3>
               <span className="contact_card-data">99-99-12-12-23-11</span>
-              <a href="#" className="contact_button">
+              <a href="welcome" className="contact_button">
                 Write to me{" "}
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
