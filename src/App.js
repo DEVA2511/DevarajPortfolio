@@ -17,18 +17,18 @@ import Qualification from "./components/qualification/Qualification";
 // import { useColorScheme } from "react-native";
 // import { ThemeProvider } from "./ThemeContext";
 function App() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
-  const toggleTheme = () => {
-    if (theme === "light") {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  };
-  useEffect(() => {
-    localStorage.setItem("theme", theme);
-    document.body.className = theme;
-  }, [theme]);
+  // const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+  // const toggleTheme = () => {
+  //   if (theme === "light") {
+  //     setTheme("dark");
+  //   } else {
+  //     setTheme("light");
+  //   }
+  // };
+  // useEffect(() => {
+  //   localStorage.setItem("theme", theme);
+  //   document.body.className = theme;
+  // }, [theme]);
   return (
     <>
       <div className={`App ${theme}`}>
