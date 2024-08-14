@@ -6,10 +6,10 @@ const Data = () => {
       <h1 className="home_title">𝒟𝐸𝒱𝒜𝑅𝒜𝒥</h1>
       <h1 className="home_subtitle">Java Full stack Developer</h1>
       <p className="home_description">
-        To secure a challenging position in the Organization provides me with
-        ample opportunities to enhance my skills and knowledge which can be
-        effectively used for the overall development and growth of the
-        Organization.
+        To secure a challenging position as a software developer where I can
+        utilize my coding skills and experience in software development to
+        contribute to the success of the organization. I am committed to
+        continuous learning and professional growth.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

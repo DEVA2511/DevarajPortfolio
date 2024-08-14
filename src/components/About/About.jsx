@@ -16,9 +16,10 @@ const About = () => {
         <div className="about_data">
           <Info />
           <p className="about_description">
-            Front end developer, I create web pages with React JS user
-            interface, I have one years six month of experience in Java Full
-            Stack Developer.
+            To secure a challenging position as a software developer where I can
+            utilize my coding skills and experience in software development to
+            contribute to the success of the organization. I am committed to
+            continuous learning and professional growth.
           </p>
           <a download={"Devaraj"} href={CV} className="button button--flex">
             Download CV <i class="uil uil-download-alt"></i>
