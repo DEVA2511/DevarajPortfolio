@@ -9,7 +9,7 @@ const Qualification = () => {
   return (
     <section className="qualification section" id="qualification">
       <h2 className="section_title">Qualification</h2>
-      <span className="section_subtitle">My personel jurny</span>
+      <span className="section_subtitle">My personal journey</span>
 
       <div className="qualification_container container grid">
         <div className="qualification_tabs">
@@ -75,7 +75,7 @@ const Qualification = () => {
                   Cognizant technology and private limited
                 </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>2023 - Present
+                  <i className="uil uil-calendar-alt"></i>2022 - 2024
                 </div>
               </div>
             </div>
@@ -95,8 +95,8 @@ const Qualification = () => {
                   Cognizant technology and private limited
                 </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>27th-Jan-2023 -
-                  30-June-2023
+                  <i className="uil uil-calendar-alt"></i>27th-Jan-2022 -
+                  30-June-2022
                 </div>
               </div>
             </div>

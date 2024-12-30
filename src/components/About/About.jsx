@@ -3,7 +3,7 @@ import "./about.css";
 // for profile image
 import AboutImg from "../../assests/About-profile-img.jpg";
 // for Resume
-import CV from "../../assests/Devaraj Thangaraj-2126564.pdf";
+import CV from "../../assests/Devaraj Thangaraj.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -16,10 +16,12 @@ const About = () => {
         <div className="about_data">
           <Info />
           <p className="about_description">
-            To secure a challenging position as a software developer where I can
-            utilize my coding skills and experience in software development to
-            contribute to the success of the organization. I am committed to
-            continuous learning and professional growth.
+          Jr. Software Developer from Cognizant Technology Solutions,
+ specialized in React.js and Full-stack development. Enhancing user
+ experience and software performance, demonstrating strong
+ problem-solving and client support skills. Proven track record in
+ boosting web application accessibility and efficiency through
+ innovative coding and debugging techniques.
           </p>
           <a download={"Devaraj"} href={CV} className="button button--flex">
             Download CV <i class="uil uil-download-alt"></i>
